@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            margin: 0;
+            height: 100vh;
+        }
+        .column {
+            flex: 1;
+            padding: 20px;
+            box-sizing: border-box;
+            border: 1px solid #ddd;
+        }
+        .left {
+            background-color: #f4f4f4;
+        }
+        .middle {
+            background-color: #e2e2e2;
+        }
+        .right {
+            background-color: #d4d4d4;
+        }
+    </style>
+</head>
+<body>
+    <div class="column left">
+        <h2>Left Row</h2>
+        <p>This is the left Row.</p>
+    </div>
+    <div class="column middle">
+        <h2>Middle Row</h2>
+        <p>This is the middle Row.</p>
+    </div>
+    <div class="column right">
+        <h2>Right Row</h2>
+        <p>This is the right Row.</p>
+    </div>
+</body>
+</html>
